@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #033076;
+  min-height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  height: 300px;
+  background: rgba(234, 238, 234, 0.5);
+  text-align: center;
+  margin: 10px;
+}
+
+.short-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  height: 80px;
+  background: rgba(234, 238, 234, 0.5);
+  text-align: center;
+  margin: 10px;
+}
+
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transform: scale(1.1);
+} */
+
+img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 2px 35px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.image{
+  height: 170px;
+}
+
+.text{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  height: 100px;
+  background: rgba(234, 238, 234, 0.5);
+  text-align: center;
+  margin: 10px;
+}
+
+.info{
+  position: relative;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Button{
+  width: 40%;
+} */
+
+body{
+  background-color: #4a4e54;
+}
+
+Input{
+  width: 500px;
+}

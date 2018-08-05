@@ -17,14 +17,35 @@ const defaultState = {
     date: ''
 }
 
+const feedbackReducer = (state = defaultState, action)=>{
+    switch (action.type) {
+        case 'CHANGE_VALUES':
+            state = {
+                ...state,
+                [action.payload.name]: action.payload.value
+            }
+        break;
+        default:
+        break;
+    }
+    console.log(state);
+    return state;
+}
 
+const feedbackListReducer = (state = [], action)=>{
+    if (action.type === 'SET_LIST') {
+        state = action.payload
+    }
+    return state;
+}
 
 
 
 
 const storeInstance = createStore(
     combineReducers({
-
+        feedbackReducer: feedbackReducer,
+        feedbackListReducer: feedbackListReducer
     }),
     applyMiddleware(logger)
 )
